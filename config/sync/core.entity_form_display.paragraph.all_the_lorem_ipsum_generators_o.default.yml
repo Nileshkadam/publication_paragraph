@@ -1,0 +1,29 @@
+uuid: 8949f60d-0bdd-411a-97ac-c64bf2c86fcb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.all_the_lorem_ipsum_generators_o.field_category_language
+    - paragraphs.paragraphs_type.all_the_lorem_ipsum_generators_o
+  module:
+    - paragraphs
+id: paragraph.all_the_lorem_ipsum_generators_o.default
+targetEntityType: paragraph
+bundle: all_the_lorem_ipsum_generators_o
+mode: default
+content:
+  field_category_language:
+    type: entity_reference_paragraphs
+    weight: 0
+    settings:
+      title: Paragraph
+      title_plural: Paragraphs
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: ''
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

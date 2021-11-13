@@ -1,0 +1,23 @@
+uuid: 9fc491ff-8c65-4cf3-a9a4-50b5766c274e
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - publication_paragraph
+_core:
+  default_config_hash: Q-4EcGAsu26ICu4ejEz0uE1zv4akpiaOsizxgZfAmEw
+id: publication_paragraph_search
+theme: publication_paragraph
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: node_search
+visibility: {  }

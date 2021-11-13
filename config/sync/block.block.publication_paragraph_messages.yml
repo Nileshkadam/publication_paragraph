@@ -1,0 +1,22 @@
+uuid: faa54afa-a36b-4d3b-8075-de74f687c3c7
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - publication_paragraph
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: publication_paragraph_messages
+theme: publication_paragraph
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

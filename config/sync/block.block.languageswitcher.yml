@@ -1,0 +1,26 @@
+uuid: 67204188-2c8e-46a4-aa59-1bf8beb6cbdf
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+    - system
+  theme:
+    - publication_paragraph
+id: languageswitcher
+theme: publication_paragraph
+region: content
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  provider: language
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /homepage
+    negate: false
+    context_mapping: {  }

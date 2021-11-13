@@ -1,0 +1,22 @@
+uuid: a19b6a3a-88b6-4f71-89a9-09d98471fc7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - publication_paragraph
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: publication_paragraph_help
+theme: publication_paragraph
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
