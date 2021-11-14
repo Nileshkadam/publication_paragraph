@@ -4,8 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.publication.field_author
+    - field.field.node.publication.field_collection_data
     - field.field.node.publication.field_content
-    - field.field.node.publication.field_content_category
     - field.field.node.publication.field_content_category_taxonomy
     - field.field.node.publication.field_cover_image
     - field.field.node.publication.field_published_date
@@ -30,14 +30,7 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_content:
-    weight: 108
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_content_category:
+  field_collection_data:
     type: entity_reference_revisions_entity_view
     weight: 111
     label: above
@@ -45,6 +38,13 @@ content:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    region: content
+  field_content:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   field_content_category_taxonomy:
     weight: 110

@@ -1,0 +1,23 @@
+uuid: 441dcd57-c49a-47e2-b1d0-b2176434583f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_website_link
+    - paragraphs.paragraphs_type.assignment_collection
+  module:
+    - link
+id: paragraph.assignment_collection.field_website_link
+field_name: field_website_link
+entity_type: paragraph
+bundle: assignment_collection
+label: 'Website link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,37 @@
+uuid: 4aab770b-c91e-41a1-af7f-5c7170cb3b75
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.assignment_collection.field_file_upload
+    - field.field.paragraph.assignment_collection.field_website_link
+    - paragraphs.paragraphs_type.assignment_collection
+  module:
+    - file
+    - link
+id: paragraph.assignment_collection.default
+targetEntityType: paragraph
+bundle: assignment_collection
+mode: default
+content:
+  field_file_upload:
+    weight: 0
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_website_link:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+hidden: {  }

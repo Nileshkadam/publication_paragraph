@@ -1,0 +1,8 @@
+uuid: 5b88efa0-a15b-4be1-8bc8-2837cb70c232
+langcode: en
+status: true
+dependencies: {  }
+name: 'Publication Category'
+vid: publication_category
+description: 'Publication Category'
+weight: 0

@@ -1,18 +1,18 @@
-uuid: 53c628d2-93ed-4763-bc04-f16926d27b9f
+uuid: 5f80e99a-54b8-4bbc-98eb-0abc851a649a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_content_category
+    - field.storage.node.field_collection_data
     - node.type.publication
-    - paragraphs.paragraphs_type.all_the_lorem_ipsum_generators_o
+    - paragraphs.paragraphs_type.assignment_collection
   module:
     - entity_reference_revisions
-id: node.publication.field_content_category
-field_name: field_content_category
+id: node.publication.field_collection_data
+field_name: field_collection_data
 entity_type: node
 bundle: publication
-label: 'Content category'
+label: 'Collection Data'
 description: ''
 required: false
 translatable: false
@@ -23,9 +23,9 @@ settings:
   handler_settings:
     negate: 0
     target_bundles:
-      all_the_lorem_ipsum_generators_o: all_the_lorem_ipsum_generators_o
+      assignment_collection: assignment_collection
     target_bundles_drag_drop:
-      all_the_lorem_ipsum_generators_o:
+      assignment_collection:
         enabled: true
         weight: 2
 field_type: entity_reference_revisions

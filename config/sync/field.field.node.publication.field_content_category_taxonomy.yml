@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_content_category_taxonomy
     - node.type.publication
-    - taxonomy.vocabulary.content_category
+    - taxonomy.vocabulary.publication_category
 id: node.publication.field_content_category_taxonomy
 field_name: field_content_category_taxonomy
 entity_type: node
@@ -20,10 +20,10 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      content_category: content_category
+      publication_category: publication_category
     sort:
       field: name
       direction: asc
     auto_create: false
-    auto_create_bundle: ''
+    auto_create_bundle: content_category
 field_type: entity_reference

@@ -1,0 +1,30 @@
+// @todo these should be their own CSS files and only included when
+
+
+ol,
+ul {
+  padding-left: 1.5em;
+  .popover &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Page header.
+.page-header {
+  margin-top: 0;
+}
+
+// Footer.
+.footer {
+  border-top: 1px solid #e5e5e5;
+  margin-top: 45px;
+  padding-bottom: 36px;
+  padding-top: 35px;
+}
+
+// Paragraphs.
+p:last-child,
+.form-group:last-child,
+.panel:last-child {
+  margin-bottom: 0;
+}

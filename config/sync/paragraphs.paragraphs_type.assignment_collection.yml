@@ -1,0 +1,10 @@
+uuid: f2e6d729-014d-4b70-8f9d-77a124f93697
+langcode: en
+status: true
+dependencies: {  }
+id: assignment_collection
+label: 'Assignment Collection'
+icon_uuid: null
+icon_default: null
+description: 'Assignment Collection'
+behavior_plugins: {  }

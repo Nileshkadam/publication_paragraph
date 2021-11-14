@@ -1,11 +1,11 @@
 uuid: 971ebc76-c7c6-4a33-a23a-ba87daacf065
-name: publication-task
+name: 'Drupal Project'
 mail: nilesh438.nk@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en

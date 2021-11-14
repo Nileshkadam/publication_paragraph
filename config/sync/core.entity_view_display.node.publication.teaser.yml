@@ -5,8 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.publication.field_author
+    - field.field.node.publication.field_collection_data
     - field.field.node.publication.field_content
-    - field.field.node.publication.field_content_category
     - field.field.node.publication.field_content_category_taxonomy
     - field.field.node.publication.field_cover_image
     - field.field.node.publication.field_published_date
@@ -26,8 +26,8 @@ content:
     region: content
 hidden:
   field_author: true
+  field_collection_data: true
   field_content: true
-  field_content_category: true
   field_content_category_taxonomy: true
   field_cover_image: true
   field_published_date: true

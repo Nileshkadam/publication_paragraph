@@ -4,8 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.publication.field_author
+    - field.field.node.publication.field_collection_data
     - field.field.node.publication.field_content
-    - field.field.node.publication.field_content_category
     - field.field.node.publication.field_content_category_taxonomy
     - field.field.node.publication.field_cover_image
     - field.field.node.publication.field_published_date
@@ -37,15 +37,7 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_content:
-    weight: 5
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: content
-  field_content_category:
+  field_collection_data:
     type: entity_reference_paragraphs
     weight: 27
     settings:
@@ -56,6 +48,14 @@ content:
       form_display_mode: default
       default_paragraph_type: ''
     third_party_settings: {  }
+    region: content
+  field_content:
+    weight: 5
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
     region: content
   field_content_category_taxonomy:
     weight: 26
