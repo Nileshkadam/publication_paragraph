@@ -5,6 +5,11 @@ global-styling:
   js:
     js/global.js: {}
 
+publication:
+  css:
+    theme:
+      stylesheets/publication.css: {}
+
 fonts:
   css:
     theme:

@@ -13,11 +13,9 @@
 # changes.
 name: publication_paragraph
 type: theme
-description: This is a publication_paragraphsub theme
+description: This is a Publication theme
 core: 8.x
-# Defines libraries group in which we can add css/js.
-libraries:
-  - publication_paragraph/global-styling
+
 # Regions
 regions:
   header: Header
@@ -26,3 +24,7 @@ regions:
   sidebar_first: First sidebar
   sidebar_second: Second sidebar
   footer: Footer
+
+# Defines libraries group in which we can add css/js.
+libraries:
+  - 'publication_paragraph/global-styling'
